@@ -1,0 +1,9 @@
+@host = http://localhost:5000
+
+### 
+POST {{host}}
+Content-Type: application/json
+
+{
+  "message": "hi"
+}
