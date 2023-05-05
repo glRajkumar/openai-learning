@@ -1,4 +1,18 @@
 @host = http://localhost:5000/admin
 
+
+### get all available models can be used
+GET {{host}}/available-modals
+
+
 ### get all fine tunes
 GET {{host}}/all-fine-tunes
+
+
+### get all uploaded files
+GET {{host}}/all-uploaded-files
+
+
+### create new fine tune
+GET {{host}}/create-new-fine-tune
+
