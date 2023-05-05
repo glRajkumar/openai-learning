@@ -1,0 +1,9 @@
+@host = http://localhost:5000/chat
+
+### ask question
+POST {{host}}
+Content-Type: application/json
+
+{
+  "message": "can you give me road map for learning quantum computing?"
+}

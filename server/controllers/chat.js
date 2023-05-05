@@ -1,5 +1,5 @@
 import express from 'express';
-import { addMsg } from './openAi.js';
+import { addMsg } from '../lib/openAi.js';
 
 const router = express.Router()
 

@@ -15,4 +15,8 @@ export const addMsg = async (role, content) => {
   }).then(r => r.data)
 }
 
+export const getAllFineTunes = async () => {
+  return openAi.listFineTunes()
+}
+
 export default openAi

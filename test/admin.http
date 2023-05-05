@@ -1,0 +1,4 @@
+@host = http://localhost:5000/admin
+
+### get all fine tunes
+GET {{host}}/all-fine-tunes
