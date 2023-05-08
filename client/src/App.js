@@ -7,7 +7,7 @@ function App() {
 
   const getAns = async (message) => {
     try {
-      const res = await fetch("http://localhost:5000", {
+      const res = await fetch("http://localhost:5000/chat", {
         method: "post",
         headers: {
           'Content-Type': 'application/json',

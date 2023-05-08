@@ -5,5 +5,5 @@ POST {{host}}
 Content-Type: application/json
 
 {
-  "message": "Who is Raj kumar?"
+  "message": "list out Raj kumar skill set"
 }
