@@ -1,7 +1,8 @@
 import express from 'express';
 import {
   getAllFineTunes, createFineTune,
-  getAllUploadedFiles, uploadFile, getAllAvailableModels
+  getAllUploadedFiles, uploadFile,
+  getAllAvailableModels, createEmbedding,
 } from '../lib/openAi.js';
 
 const router = express.Router()
@@ -13,6 +14,14 @@ router.get('/available-modals', async (req, res) => {
 
 router.get('/all-fine-tunes', async (req, res) => {
   const data = await getAllFineTunes()
+  return res.json(data)
+})
+
+// use post if you are sending body. just for simplicity used get
+router.get('/create-emb', async (req, res) => {
+  const { message } = req.body
+
+  const data = await createEmbedding(message)
   return res.json(data)
 })
 

@@ -16,3 +16,13 @@ GET {{host}}/all-uploaded-files
 ### create new fine tune
 GET {{host}}/create-new-fine-tune
 
+
+### create embedding
+GET {{host}}/create-emb
+Content-Type: application/json
+
+{
+  "message": "My name is Raj kumar. I completed my B.Sc. Mathametics graduation from Loyola college in Chennai with 8.6 CGPA. Currently pursuing my MBA in General in correspondence. I am topper in my school days. From my childhood, I loved Mathematics, Computer Science and Films and Story writing. I wished to be mark my present in across differnt fields. I want to pursue research in Mathametics and Computer Science especially in Machine learning field as well as wish to be Director. While in my final years in UG, I started learning computer application/programming languages like C, C++, Java. But my interest shifted to web developmet. Started self learning at initially and then completed Full Stack Web Developmet course. Then completed numerous course on platforms like Coursera, Edx, Udemy, YouTube, Udacity. At early stage of my career, I really struggled to get job/internship. After lot of struggles, finally got oppurtinuty for internship. I started working as MERN Stack Developer intern in chennai based startup. It was in covid time, company was in very much trouble financially. I didn't aware of that initally. The company was once one of the best start up in chennai with 120 employee. When I am joining there were only 30. Initially just instructed to try out new libraries. At some point, got an oppurtinuty to work with ML developer for new project. I handled full fronted and ML person handled backend + ML works. We developed chatbot within 2 months with astonishing UI. Our CEO very much impressed by that then He also given his input. then for 6 month we all 3 together worked on that project. After that moved to important project, I taken lead role and created 6 website ui. But due to financially crisis at our startup, I moved to other startup. Currently working as SDE1(Frontend). Here also I independently developed 1 project with co-founder of the new startup who handles UI/UX for this project. Then fixed numerous bugs in old site and worked on 3 more projects. Continuing my works on frontend. I have following skills In Frontend: Html, Css, Javascript, React, Tailwind, Bootstrap, Sass, NextJs, React-query, React-hook-form, Redux, Zustand, Axios, ChartJs, D3.Js, floating-ui, headless-ui . \n In Backend: NodeJs, ExpressJs, MongoDb, Mongoose ORM, Postgresql, Mysql, Sequelise ORM, Prisma ORM, Next Auth. \n In Deployment: Netlify, Heroku, Vercel."
+}
+
+

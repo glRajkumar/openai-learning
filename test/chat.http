@@ -7,3 +7,12 @@ Content-Type: application/json
 {
   "message": "list out Raj kumar skill set"
 }
+
+
+### ask question from embedded
+POST {{host}}
+Content-Type: application/json
+
+{
+  "message": "list out Raj kumar skill set as per last embedding given"
+}
