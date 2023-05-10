@@ -6,6 +6,7 @@ Backend project for integration with OpenAI. added small UI also (not maintained
 - Created projected in `express`. 
 - `openai` package used for integrating apis with OpenAI.
 - for embedding, used `supabase` postgresql database with `vector` type.
+- for fine tuning, created and used `jsonl` files.
 
 
 ### Project setup
