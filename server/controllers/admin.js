@@ -32,7 +32,7 @@ router.get('/all-uploaded-files', async (req, res) => {
 
 // for simplicity, added file locally and using with get req
 router.get('/create-new-fine-tune', async (req, res) => {
-  const fileData = await uploadFile("about-me.jsonl")
+  const fileData = await uploadFile("redink.jsonl")
   const data = createFineTune(fileData.id)
   return res.json(data)
 })

@@ -5,14 +5,14 @@ POST {{host}}
 Content-Type: application/json
 
 {
-  "message": "list out Raj kumar skill set"
+  "message": "What is Redink Classroom?"
 }
 
 
 ### ask question from embedded
-POST {{host}}
+POST {{host}}/from-embedding
 Content-Type: application/json
 
 {
-  "message": "list out Raj kumar skill set as per last embedding given"
+  "message": "What is Redink Classroom?"
 }
