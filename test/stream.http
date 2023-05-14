@@ -1,0 +1,13 @@
+@host = http://localhost:5000/stream
+
+
+#### 
+POST {{host}}
+Content-Type: application/json
+
+{
+  "message": "Explain about quantum computing"
+}
+
+
+
